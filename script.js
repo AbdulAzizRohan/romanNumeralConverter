@@ -93,7 +93,6 @@ const startConversion = () => {
   }
 
   output.innerText = convertRomanNumeral(numberInt);
-  number.value = "";
 };
 
 convertBtn.addEventListener("click", startConversion);
